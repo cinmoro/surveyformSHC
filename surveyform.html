@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesf.css">
+  </head>
+  <body>
+    <h1 id="title">Sweetheart Cafe Survey</h1>
+    <p id="description">Thank you for taking the time to help us improve our services and products.</p>
+    <form id="survey-form">
+
+    <div class="form-group">
+        <label for="name" id="name-label">Name 
+            <input id="name" type="text" class="inputtxtbox" placeholder="Jane Doe" required/>
+        </label>
+        
+        <label for="email" id="email-label">Email 
+            <input id="email" type="email" class="inputtxtbox" placeholder="janedoe@email.com" required/>
+        </label>
+        
+        <label for="number" id="number-label">Age 
+            <input id="number" class="inputtxtbox" type="number" min="13" max="120" placeholder="13+"/>
+        </label>
+        
+        <label for="ref">How did you hear about us?
+            <select id="dropdown" class="inputtxtbox" class="inline">
+                <option value="">Select an option</option>
+                <option value="1">Social Media</option>
+                <option value="2">Google/Google Maps</option>
+                <option value="3">Friend/Acquaintance</option>
+                <option value="4">Yelp</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+    </div>
+
+    <legend>Which of our product(s)/service(s) did you try today?</legend>
+            <label for="prod-desserts" class="inline">
+            <label for="prod-cake">
+                <input id="prod-cake" type="checkbox"/>Cake
+            </label>
+            <label for="prod-drink">
+                <input type="checkbox"/>Matcha/Coffee/Drinks
+            </label>
+            <label for="prod-books">
+                <input type="checkbox"/>Bookstore
+            </label>
+            <label for="prod-pbox">
+                <input type="checkbox" />Picnic box
+            </label>
+            <label for="prod-choco">
+                <input type="checkbox" />Chocolate covered sweets
+            </label>
+            <label for="prod-cookie">
+                <input type="checkbox" />Cookie(s)
+            </label>
+            <label for="prod-candles">
+                <input type="checkbox" />Candles
+            </label>
+            <label for="prod-music">
+                <input type="checkbox" />Musicstore
+            </label>
+            <label for="prod-other">
+                <input type="checkbox" />Other
+            </label>
+        </label>
+    
+    <legend>Would you reccommend us to a friend?</legend>
+        <label for="recc-def">
+            <input type="radio" name="recc" value="1"/>Definitely
+        </label>
+        <label for="recc-maybe">
+            <input type="radio" name="recc" value="2"/>Maybe
+        </label>
+        <label for="recc-idk">
+            <input type="radio" name="recc" value="0"/>Not sure
+        </label>
+        <label for="sug"> Any suggestions? 
+            <textarea id="sug" class="inline" name="sug" rows="6" cols="70" placeholder="Please add any suggestions/comments here...">
+            </textarea> 
+        </label>
+      <input id="submit" type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
