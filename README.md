@@ -1,2 +1,2 @@
-# surveyformSHC
-a warm survey form for a very cute (and imaginary) cafe called the sweetheart cafe &lt;3
+# surveyform for the Sweetheart Cafe Series
+a warm survey form for a very cute (and imaginary) cafe called the Sweetheart Cafe &lt;3
